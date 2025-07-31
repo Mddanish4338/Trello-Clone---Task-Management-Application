@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# Trello Clone - Task Management Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img width="1920" height="850" alt="image" src="https://github.com/user-attachments/assets/7135dd25-154d-4ba8-8a6a-784fd028ab6c" />
 
-## Available Scripts
+A full-featured Trello clone built with React.js, Context API, and pure CSS. This application allows users to manage projects and tasks with a kanban-style board interface.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **User Authentication**
+  - Login and registration system
+  - Protected routes
+  - User session management
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Project Management**
+  - Create and manage multiple projects
+  - Add detailed descriptions
+  - View all tasks within a project
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Task Board**
+  - Kanban-style columns (Backlog, In Discussion, In Progress, Done)
+  - Drag-and-drop task status updates
+  - Task details (name, description, due date, tags, assignee)
 
-### `npm test`
+- **Task Operations**
+  - Create, edit, and delete tasks
+  - Assign tasks to team members
+  - Add tags and due dates
+  - Change task status via dropdown
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Responsive Design**
+  - Works on desktop, tablet, and mobile
+  - Adaptive layouts for different screen sizes
 
-### `npm run build`
+## Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Frontend**
+  - React.js (Functional components with hooks)
+  - React Router for navigation
+  - Context API for state management
+  - React Icons for UI icons
+  - Pure CSS (no CSS frameworks)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Development Tools**
+  - Create React App
+  - Prettier for code formatting
+  - ESLint for code quality
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting Started
 
-### `npm run eject`
+### Prerequisites
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Node.js (v14 or higher)
+- npm (v6 or higher) or yarn
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/trello-clone.git
+   cd trello-clone
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
